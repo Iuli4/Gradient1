@@ -1,0 +1,77 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+ .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .card{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 500px;
+    border: 1px solid rgb(168, 119, 168);
+    border-radius:5px;
+    margin-left: 20px;
+    transition:1s;
+ }
+ .gradient__img{
+    height: 300px;
+    background: rgb(238,174,227);
+background: radial-gradient(circle, rgba(238,174,227,1) 25%, rgba(162,237,226,1) 85%);
+ }
+ .title{
+    margin-left: 30px;
+    font-weight: 900;
+    background: -webkit-linear-gradient(rgb(49, 46, 46), rgb(230, 169, 216));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.info__content{
+    padding: 0 10px 0 10px;
+}
+.card__buy{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 500px;
+    flex-direction: column;
+    transition: 1s;
+}
+.card:hover{
+    -webkit-box-shadow: 13px -14px 57px 0px rgba(189,32,189,0.77);
+    -moz-box-shadow: 13px -14px 57px 0px rgba(189,32,189,0.77);
+    box-shadow: 13px -14px 57px 0px rgba(189,32,189,0.77);
+}
+.title,span{
+    margin-left: 10px;
+    color:black;
+}
+.gredient__img__buy{
+    width: 300px;
+    height:100%;
+    background: rgb(238,174,227);
+background: radial-gradient(circle, rgba(238,174,227,1) 25%, rgba(162,237,226,1) 85%);
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer;
+    margin-bottom: 40px;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 28px;
+    transition: 1s;
+    border:1px solid rgb(207, 112, 219);
+    background: rgb(238,174,227);
+background: radial-gradient(circle, rgba(238,174,227,1) 39%, rgba(144,24,81,1) 92%);
+}
+.btn:hover{
+    color:rgb(233, 219, 229);
+}
